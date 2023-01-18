@@ -2,7 +2,7 @@
 > g++ -o sample_code_no_ckpt sample_code_no_ckpt.cpp
 > g++ -o sample_code_with_ckpt sample_code_with_ckpt.cpp
 
-# to run the code normally
+# to run the code without checkpoitning normally
 > ./sample_code_no_ckpt
 
 # output of the code
@@ -129,7 +129,7 @@ Value changed to 505
 Final i1 = 505
 Final i2 = 65
 
-# to run the code normally
+# to run the code with checkpointing normally
 > ./sample_code_with_ckpt
 
 # output of the code in the sample_code_with_ckpt.cpp file
