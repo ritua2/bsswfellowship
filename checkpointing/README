@@ -6,9 +6,379 @@
 > ./sample_code_no_ckpt
 > ./sample_code_with_ckpt
 
-# to test the checkpoint-and-restart feature, run the command below and pres ctrl + c to interrupt the execution of the code
-> ./sample_code_with_ckpt
-> ^c
+# output of the code in the sample_code_with_ckpt.cpp file
+v_D is: 10
 
-# restart the previously interrupted code as follows
+starting out from i= 0
+
+rose_count_in_file: 0, rose_count: 1
+
+starting out from i= 0
+Value changed to 10
+Value changed to 11
+Value changed to 13
+Value changed to 16
+Value changed to 20
+Value changed to 25
+Value changed to 31
+Value changed to 38
+Value changed to 46
+Value changed to 55
+
+rose_count_in_file: 0, rose_count: 2
+
+starting out from i= 0
+Value changed to 55
+Value changed to 56
+Value changed to 58
+Value changed to 61
+Value changed to 65
+Value changed to 70
+Value changed to 76
+Value changed to 83
+Value changed to 91
+Value changed to 100
+
+rose_count_in_file: 0, rose_count: 3
+
+starting out from i= 0
+Value changed to 100
+Value changed to 101
+Value changed to 103
+Value changed to 106
+Value changed to 110
+Value changed to 115
+Value changed to 121
+Value changed to 128
+Value changed to 136
+Value changed to 145
+
+rose_count_in_file: 0, rose_count: 4
+
+starting out from i= 0
+Value changed to 145
+Value changed to 146
+Value changed to 148
+Value changed to 151
+Value changed to 155
+Value changed to 160
+Value changed to 166
+Value changed to 173
+Value changed to 181
+Value changed to 190
+
+rose_count_in_file: 0, rose_count: 5
+
+starting out from i= 0
+Value changed to 190
+Value changed to 191
+Value changed to 193
+Value changed to 196
+Value changed to 200
+Value changed to 205
+Value changed to 211
+Value changed to 218
+Value changed to 226
+Value changed to 235
+
+rose_count_in_file: 0, rose_count: 6
+
+starting out from i= 0
+Value changed to 235
+Value changed to 236
+Value changed to 238
+Value changed to 241
+Value changed to 245
+Value changed to 250
+Value changed to 256
+Value changed to 263
+Value changed to 271
+Value changed to 280
+
+rose_count_in_file: 0, rose_count: 7
+
+starting out from i= 0
+Value changed to 280
+Value changed to 281
+Value changed to 283
+Value changed to 286
+Value changed to 290
+Value changed to 295
+Value changed to 301
+Value changed to 308
+Value changed to 316
+Value changed to 325
+
+rose_count_in_file: 0, rose_count: 8
+
+starting out from i= 0
+Value changed to 325
+Value changed to 326
+Value changed to 328
+Value changed to 331
+Value changed to 335
+Value changed to 340
+Value changed to 346
+Value changed to 353
+Value changed to 361
+Value changed to 370
+
+rose_count_in_file: 0, rose_count: 9
+
+starting out from i= 0
+Value changed to 370
+Value changed to 371
+Value changed to 373
+Value changed to 376
+Value changed to 380
+Value changed to 385
+Value changed to 391
+Value changed to 398
+Value changed to 406
+Value changed to 415
+
+rose_count_in_file: 0, rose_count: 10
+
+starting out from i= 0
+Value changed to 415
+Value changed to 416
+Value changed to 418
+Value changed to 421
+Value changed to 425
+Value changed to 430
+Value changed to 436
+Value changed to 443
+Value changed to 451
+Value changed to 460
+
+rose_count_in_file: 0, rose_count: 11
+
+starting out from i= 0
+Value changed to 20
+Value changed to 21
+Value changed to 23
+Value changed to 26
+Value changed to 30
+Value changed to 35
+Value changed to 41
+Value changed to 48
+Value changed to 56
+Value changed to 65
+
+rose_count_in_file: 0, rose_count: 12
+
+starting out from i= 0
+Value changed to 460
+Value changed to 461
+Value changed to 463
+Value changed to 466
+Value changed to 470
+Value changed to 475
+Value changed to 481
+Value changed to 488
+Value changed to 496
+Value changed to 505
+Final i1 = 505
+Final i2 = 65
+
+
+# to test the checkpoint-and-restart feature, run the command below and pres ctrl + c to interrupt the execution of the code, output before ctrl+c is entered is shown below
+> ./sample_code_with_ckpt
+
+v_D is: 10
+
+starting out from i= 0
+
+rose_count_in_file: 0, rose_count: 1
+
+starting out from i= 0
+Value changed to 10
+Value changed to 11
+Value changed to 13
+Value changed to 16
+Value changed to 20
+Value changed to 25
+Value changed to 31
+Value changed to 38
+Value changed to 46
+Value changed to 55
+
+rose_count_in_file: 0, rose_count: 2
+
+starting out from i= 0
+Value changed to 55
+Value changed to 56
+Value changed to 58
+Value changed to 61
+Value changed to 65
+Value changed to 70
+Value changed to 76
+Value changed to 83
+Value changed to 91
+Value changed to 100
+
+rose_count_in_file: 0, rose_count: 3
+
+starting out from i= 0
+Value changed to 100
+^C
+
+
+
+
+
+# restart the previously interrupted code as follows, the output is shown below
 > ./sample_code_with_ckpt r
+The file will be opened in the restart mode.
+
+rose_count_in_file: 1
+
+rose_start_from_file: 2
+
+v_of_d_function: 100
+
+v_D is: 100
+
+starting out from i= 2
+
+rose_count_in_file: 3, rose_count: 1
+
+starting out from i= 0
+Value changed to 100
+Value changed to 101
+Value changed to 103
+Value changed to 106
+Value changed to 110
+Value changed to 115
+Value changed to 121
+Value changed to 128
+Value changed to 136
+Value changed to 145
+
+rose_count_in_file: 3, rose_count: 2
+
+starting out from i= 0
+Value changed to 145
+Value changed to 146
+Value changed to 148
+Value changed to 151
+Value changed to 155
+Value changed to 160
+Value changed to 166
+Value changed to 173
+Value changed to 181
+Value changed to 190
+
+rose_count_in_file: 3, rose_count: 3
+
+starting out from i= 0
+Value changed to 100
+Value changed to 101
+Value changed to 103
+Value changed to 106
+Value changed to 110
+Value changed to 115
+Value changed to 121
+Value changed to 128
+Value changed to 136
+Value changed to 145
+
+rose_count_in_file: 3, rose_count: 4
+
+starting out from i= 0
+Value changed to 145
+Value changed to 146
+Value changed to 148
+Value changed to 151
+Value changed to 155
+Value changed to 160
+Value changed to 166
+Value changed to 173
+Value changed to 181
+Value changed to 190
+
+rose_count_in_file: 3, rose_count: 5
+
+starting out from i= 0
+Value changed to 190
+Value changed to 191
+Value changed to 193
+Value changed to 196
+Value changed to 200
+Value changed to 205
+Value changed to 211
+Value changed to 218
+Value changed to 226
+Value changed to 235
+
+rose_count_in_file: 3, rose_count: 6
+
+starting out from i= 0
+Value changed to 235
+Value changed to 236
+Value changed to 238
+Value changed to 241
+Value changed to 245
+Value changed to 250
+Value changed to 256
+Value changed to 263
+Value changed to 271
+Value changed to 280
+
+rose_count_in_file: 3, rose_count: 7
+
+starting out from i= 0
+Value changed to 280
+Value changed to 281
+Value changed to 283
+Value changed to 286
+Value changed to 290
+Value changed to 295
+Value changed to 301
+Value changed to 308
+Value changed to 316
+Value changed to 325
+
+rose_count_in_file: 3, rose_count: 8
+
+starting out from i= 0
+Value changed to 325
+Value changed to 326
+Value changed to 328
+Value changed to 331
+Value changed to 335
+Value changed to 340
+Value changed to 346
+Value changed to 353
+Value changed to 361
+Value changed to 370
+
+rose_count_in_file: 3, rose_count: 9
+
+starting out from i= 0
+Value changed to 20
+Value changed to 21
+Value changed to 23
+Value changed to 26
+Value changed to 30
+Value changed to 35
+Value changed to 41
+Value changed to 48
+Value changed to 56
+Value changed to 65
+
+rose_count_in_file: 3, rose_count: 10
+
+starting out from i= 0
+Value changed to 370
+Value changed to 371
+Value changed to 373
+Value changed to 376
+Value changed to 380
+Value changed to 385
+Value changed to 391
+Value changed to 398
+Value changed to 406
+Value changed to 415
+Final i1 = 415
+Final i2 = 65
