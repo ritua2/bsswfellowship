@@ -1,4 +1,4 @@
-# ** What is Checkpointing? **
+# What is Checkpointing?
 Checkpointing is the process of periodically saving (or writing) the execution state of an application such that in the event of an interruption in the execution of an application, this saved state can be used to continue the execution at a later time. Typically, the execution state is written to a file. Resuming the execution of an application using a previously saved state or checkpoint (instead of starting it from scratch) is referred to as the Restart phase. 
 
 # What are the advantages of checkpointing?
