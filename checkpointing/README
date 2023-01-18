@@ -1,0 +1,7 @@
+# to compile the code
+> gcc -o sample_code_no_ckpt sample_code_no_ckpt.c
+> gcc -o sample_code_with_ckpt sample_code_with_ckpt.c
+
+# to run the code normally
+> ./sample_code_no_ckpt
+> ./sample_code_with_ckpt
