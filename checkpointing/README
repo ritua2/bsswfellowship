@@ -5,3 +5,10 @@
 # to run the code normally
 > ./sample_code_no_ckpt
 > ./sample_code_with_ckpt
+
+# to test the checkpoint-and-restart feature, run the command below and pres ctrl + c to interrupt the execution of the code
+> ./sample_code_with_ckpt
+> ^c
+
+# restart the previously interrupted code as follows
+> ./sample_code_with_ckpt r
