@@ -1,8 +1,8 @@
 #include <iostream>
 #include <unistd.h>
 
- void b (int &);
- void d (int &);
+void b (int &);
+void d (int &);
 int main() {
    int i1 = 10;
    int i2 = 20;
