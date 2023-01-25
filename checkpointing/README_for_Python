@@ -1,3 +1,4 @@
+#To run the Python code
 
 $ python chkpt.py
 For testing, interrupt the running code by type ctrl+c
@@ -12,14 +13,17 @@ For testing, interrupt the running code by type ctrl+c
 9
 ^CWould you like to continue running the code? Type the letter y for yes.
 
+#After running the code for the first time, you will see the chptfile.pickle generated
 $ ls 
 chkpt.py ckptfile.pickle
 
+#Let us remove the chptfile.pickle
 $ rm ckptfile.pickle
 
 $ ls 
 chkpt.py
 
+#Let us run the code again. It will start from the beginning as we removed the file name chptfile.pickle. We will interrupt the code while it is running using ctrl+c, and then restart
 $ python chkpt.py
 For testing, interrupt the running code by typing ctrl+c
 1
@@ -47,9 +51,11 @@ For testing, interrupt the running code by typing ctrl+c
 21
 ^CWould you like to continue running the code? Type the letter y for yes.
 
+# As you notice from the values displayed above, instead of starting to print from 1, the code starts printing from the next number in the series that was printed before interruption
 $ ls
 chkpt.py ckptfile.pickle
 
+# Now let us run the code again. Because the chptfile.pickle is present, the series in the example below begins from 22 and not 1. Before the code was interrupted as shown above, the last number that was printed was 21
 $ python chkpt.py
 For testing, interrupt the running code by typing ctrl+c
 22
