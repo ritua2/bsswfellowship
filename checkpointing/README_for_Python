@@ -1,0 +1,76 @@
+
+$ python chkpt.py
+For testing, interrupt the running code by type ctrl+c
+1
+2
+3
+4
+5
+6
+7
+8
+9
+^CWould you like to continue running the code? Type the letter y for yes.
+
+$ ls 
+chkpt.py ckptfile.pickle
+
+$ rm ckptfile.pickle
+
+$ ls 
+chkpt.py
+
+$ python chkpt.py
+For testing, interrupt the running code by typing ctrl+c
+1
+2
+3
+4
+5
+6
+7
+8
+9
+^CWould you like to continue running the code? Type the letter y for yes.y
+10
+11
+12
+13
+14
+15
+^CWould you like to continue running the code? Type the letter y for yes.y
+16
+17
+18
+19
+20
+21
+^CWould you like to continue running the code? Type the letter y for yes.
+
+$ ls
+chkpt.py ckptfile.pickle
+
+$ python chkpt.py
+For testing, interrupt the running code by typing ctrl+c
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+^CWould you like to continue running the code? Type the letter y for yes.
+
+$ python chkpt.py
+For testing, interrupt the running code by typing ctrl+c
+33
+34
+35
+36
+37
+38
+^CWould you like to continue running the code? Type the letter y for yes.
