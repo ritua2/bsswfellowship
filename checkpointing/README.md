@@ -1,11 +1,11 @@
-# to compile the C++ code with the GNU C++ compiler
+# To compile the C++ code with the GNU C++ compiler
 > g++ -o sample_code_no_ckpt sample_code_no_ckpt.cpp
 > g++ -o sample_code_with_ckpt sample_code_with_ckpt.cpp
 
-# to run the code without checkpoitning normally
+# To run the C++ code without checkpoitning normally
 > ./sample_code_no_ckpt
 
-# output of the code
+# Output of the C++ code
 Value changed to 10
 Value changed to 11
 Value changed to 13
@@ -129,10 +129,10 @@ Value changed to 505
 Final i1 = 505
 Final i2 = 65
 
-# to run the code with checkpointing normally
+# To run the C++ code with checkpointing normally
 > ./sample_code_with_ckpt
 
-# output of the code in the sample_code_with_ckpt.cpp file
+# Output of the code in the sample_code_with_ckpt.cpp file
 v_D is: 10
 
 starting out from i= 0
@@ -308,7 +308,7 @@ Final i1 = 505
 Final i2 = 65
 
 
-# to test the checkpoint-and-restart feature, run the command below and pres ctrl + c to interrupt the execution of the code, output before ctrl+c is entered is shown below
+# To test the checkpoint-and-restart feature, run the command below and pres ctrl + c to interrupt the execution of the code, output before ctrl+c is entered is shown below
 > ./sample_code_with_ckpt
 
 v_D is: 10
@@ -353,7 +353,7 @@ Value changed to 100
 
 
 
-# restart the previously interrupted code as follows, the output is shown below
+# Restart the previously interrupted code as follows, the output is shown below
 > ./sample_code_with_ckpt r
 The file will be opened in the restart mode.
 
