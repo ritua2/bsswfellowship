@@ -1,4 +1,4 @@
-# to compile the code with the GNU C++ compiler
+# to compile the C++ code with the GNU C++ compiler
 > g++ -o sample_code_no_ckpt sample_code_no_ckpt.cpp
 > g++ -o sample_code_with_ckpt sample_code_with_ckpt.cpp
 
