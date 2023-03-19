@@ -1,0 +1,1 @@
+This folder contains a sample MPI program and a SLURM job script to test the sample MPI code. These can be used as step 0 to understand how to compile and run code in batch mode on HPC systems.
