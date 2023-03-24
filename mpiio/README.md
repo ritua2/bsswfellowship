@@ -18,3 +18,6 @@ https://www.slideserve.com/yoshe/introduction-to-parallel-i
 
 7. Rob Latham, ANL: https://www.mcs.anl.gov/~robl/tutorials/csmc/pio-architecture.pdf
 
+8. Steve Pat, “UNIX Filesystems: Evolution, Design, and Implementation”, chapters 3 and 4
+
+
