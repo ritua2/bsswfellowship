@@ -4,10 +4,10 @@ This directory contains sample code for reading and writing in parallel using MP
 1. NICS I/O guide: 
 https://oit.utk.edu/hpsc/isaac-open/lustre-user-guide/ 
 
-2. Introduction to Parallel I/O: 
+2. Bilel Hadri, Introduction to Parallel I/O: 
 http://www.olcf.ornl.gov/wp-content/uploads/2011/10/Fall_IO.pdf
 
-3. Introduction to Parallel I/O: https://sea.ucar.edu/sites/default/files/PIO-SEA2015.pdf 
+3. Ritu Arora, Si Liu, John Cazes, Robert McLay, Doug James: Introduction to Parallel I/O: https://sea.ucar.edu/sites/default/files/PIO-SEA2015.pdf 
 
 4. Introduction to Parallel I/O and MPI-IO by Rajeev Thakur:
 https://www.slideserve.com/yoshe/introduction-to-parallel-i
