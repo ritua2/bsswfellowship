@@ -1,3 +1,4 @@
+//Ritu: modified the code to do parallel IO
 # include <math.h>
 # include <mpi.h>
 # include <stdio.h>
