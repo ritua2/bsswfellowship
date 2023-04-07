@@ -1,0 +1,87 @@
+#The model is saved in a file and then reloaded in another model.
+#The testing is done with the second model in which the paramters that were saved for the first model were reuses.
+
+
+Epoch [1/1], Step [100/600], Loss: 0.3003
+Epoch [1/1], Step [200/600], Loss: 0.1938
+Epoch [1/1], Step [300/600], Loss: 0.0794
+Epoch [1/1], Step [400/600], Loss: 0.0983
+Epoch [1/1], Step [500/600], Loss: 0.0522
+Epoch [1/1], Step [600/600], Loss: 0.1297
+Parameters loaded in model2
+cnn(
+  (conv): Sequential(
+    (0): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (conv2): Sequential(
+    (0): Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (out): Linear(in_features=1568, out_features=10, bias=True)
+)
+1
+0.2
+
+Predicted number in the image   : 7
+Actual number as per image label: 7
+
+Predicted number in the image   : 0
+Actual number as per image label: 0
+
+Predicted number in the image   : 1
+Actual number as per image label: 1
+
+Predicted number in the image   : 2
+Actual number as per image label: 2
+
+Predicted number in the image   : 2
+Actual number as per image label: 2
+
+Predicted number in the image   : 3
+Actual number as per image label: 3
+
+Predicted number in the image   : 8
+Actual number as per image label: 8
+
+Predicted number in the image   : 4
+Actual number as per image label: 4
+
+Predicted number in the image   : 3
+Actual number as per image label: 3
+
+Predicted number in the image   : 7
+Actual number as per image label: 7
+
+Predicted number in the image   : 4
+Actual number as per image label: 4
+
+Predicted number in the image   : 4
+Actual number as per image label: 4
+
+Predicted number in the image   : 6
+Actual number as per image label: 6
+
+Predicted number in the image   : 4
+Actual number as per image label: 4
+
+Predicted number in the image   : 9
+Actual number as per image label: 9
+
+Predicted number in the image   : 1
+Actual number as per image label: 1
+
+Predicted number in the image   : 6
+Actual number as per image label: 6
+
+Predicted number in the image   : 0
+Actual number as per image label: 8
+
+Predicted number in the image   : 6
+Actual number as per image label: 6
+
+Predicted number in the image   : 7
+Actual number as per image label: 7
+Test Accuracy of the model on the 10000 test images: 0.97
