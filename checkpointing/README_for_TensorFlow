@@ -1,6 +1,7 @@
 Reference: https://www.tensorflow.org/tutorials/keras/save_and_load 
 
-Note: The model was rerun a few times before running the code from lines # 47-72 and its accuracy improved further during those runs
+Note: The model was rerun a few times before running the code from lines # 47-72 and its accuracy improved further during those runs.
+Note: The model can be run interactively or in batch mode.
 
 Output:
 Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
