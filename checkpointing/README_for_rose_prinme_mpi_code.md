@@ -1,12 +1,12 @@
-#This code was generated using the prototype of our tool named ITALC and here is the citation for the tool: "Ritu Arora and Trung Nguyen Ba. 2017. ITALC: Interactive Tool for Application-Level Checkpointing. In Proceedings of the Fourth International Workshop on HPC User Support Tools (HUST'17). Association for Computing Machinery, New York, NY, USA, Article 2, 1–11. https://doi.org/10.1145/3152493.3152558"
+# # This code was generated using the prototype of our tool named ITALC and here is the citation for the tool: "Ritu Arora and Trung Nguyen Ba. 2017. ITALC: Interactive Tool for Application-Level Checkpointing. In Proceedings of the Fourth International Workshop on HPC User Support Tools (HUST'17). Association for Computing Machinery, New York, NY, USA, Article 2, 1–11. https://doi.org/10.1145/3152493.3152558"
   
 This is C + MPI code. The base version of the code was taken from the following URL: https://people.sc.fsu.edu/~jburkardt/c_src/prime_mpi/prime_mpi.html
   
-#To compile the code: 
+# # To compile the code: 
  mpicc -o rose_prime_number rose_prime_number.c 
  
  
- #To run the code normally:
+# #To run the code normally:
 $ mpirun -np 4 rose_prime_number
 
 PRIME_MPI
@@ -39,7 +39,7 @@ PRIME_MPI - Master process:
   Normal end of execution.
 
 
- #To run the code and interrupt with ctrl+C 
+ # #To run the code and interrupt with ctrl+C 
 $ mpirun -np 4 rose_prime_number
 
 
@@ -69,7 +69,8 @@ PRIME_MPI
 ^C Sending Ctrl-C to processes as requested
 Press Ctrl-C again to force abort
 
-#Restarting after interrupting
+# #Restarting after interrupting
+
 $ mpirun -np 4 rose_prime_number --r
 
 PRIME_MPI
@@ -79,7 +80,7 @@ PRIME_MPI
   The number of processes is 4
 
          N        Pi          Time
-
+         
 Restarting from file string1.
 Restarting from file string1.
 Restarting from file string1.
