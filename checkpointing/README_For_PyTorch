@@ -1,5 +1,6 @@
 #The model is saved in a file and then reloaded in another model.
 #The testing is done with the second model in which the paramters that were saved for the first model were reuses.
+#The code in the chkpt_pytorch.py file can be copied and run interactively or in batch mode.
 
 
 Epoch [1/1], Step [100/600], Loss: 0.3003
