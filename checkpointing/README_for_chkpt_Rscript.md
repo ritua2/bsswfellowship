@@ -1,6 +1,6 @@
-# R suports the feature of saving and loading the data.
-# This code reads a matrix from an input file, updates the matrix, saves the matrix to a file, sleeps for 100 seconds, and updates the matrix again and saves it to a file.
-# If the code is interrupted after a checkpoint is written, it can be restarted from the saved or checkpointed data file by providing the name of the checkpoint file and the restart flag along with the name of the new file in which data should be saved or checkpointed.
+R suports the feature of saving and loading the data.
+This code reads a matrix from an input file, updates the matrix, saves the matrix to a file, sleeps for 100 seconds, and updates the matrix again and saves it to a file.
+If the code is interrupted after a checkpoint is written, it can be restarted from the saved or checkpointed data file by providing the name of the checkpoint file and the restart flag along with the name of the new file in which data should be saved or checkpointed.
 
 # To run the code normally
 $Rscript testRscript.R
