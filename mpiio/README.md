@@ -1,6 +1,6 @@
 This directory contains sample code for reading and writing in parallel using MPI IO as well as the code and solutions for the exercises.
 
-The basicmpi directory provides a "hello world" MPI code that can be used to test the platform/software stack availability before running the MPI IO code in the mpiio directory.
+The "basicmpi" directory provides a "hello world" MPI code that can be used to test the platform/software stack availability before running the MPI I/O code in the "C" directory contains the majority of the code that goes with the MPI I/O exmaples in the "Optimizing IO slides".
 
 # References
 1. NICS I/O guide: 
