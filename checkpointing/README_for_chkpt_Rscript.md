@@ -4,6 +4,7 @@ If the code is interrupted after a checkpoint is written, it can be restarted fr
 
 # To run the code normally
 $Rscript testRscript.R
+```
 [1] "code is running normally"
      V1 V2 V3 V4 V5
 [1,] 52 52 52 52 52
@@ -17,9 +18,10 @@ $Rscript testRscript.R
 [3,] 53 53 53 53 53
 [4,] 53 53 53 53 53
 [5,] 53 53 53 53 53
-
+```
 # To run the code, interrupt it, and resume the code in the restart mode
 $ Rscript testRscript.R
+```
 [1] "code is running normally"
      V1 V2 V3 V4 V5
 [1,] 52 52 52 52 52
@@ -29,10 +31,13 @@ $ Rscript testRscript.R
 [5,] 52 52 52 52 52
 ^C
 Execution halted
+```
 $ Rscript testRscript.R --args chkpt.Rdata restart newchkpt.Rdata
+```
      V1 V2 V3 V4 V5
 [1,] 53 53 53 53 53
 [2,] 53 53 53 53 53
 [3,] 53 53 53 53 53
 [4,] 53 53 53 53 53
 [5,] 53 53 53 53 53
+```
