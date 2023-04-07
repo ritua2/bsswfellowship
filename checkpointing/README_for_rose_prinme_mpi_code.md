@@ -2,13 +2,13 @@ This code was generated using the prototype of our tool named ITALC and here is 
   
 This is C + MPI code. The base version of the code was taken from the following URL: https://people.sc.fsu.edu/~jburkardt/c_src/prime_mpi/prime_mpi.html
   
-# # To compile the code: 
+# To compile the code: 
  mpicc -o rose_prime_number rose_prime_number.c 
  
  
-# #To run the code normally:
+# To run the code normally:
 $ mpirun -np 4 rose_prime_number
-
+```
 PRIME_MPI
   C/MPI version
 
@@ -37,12 +37,12 @@ PRIME_MPI
 
 PRIME_MPI - Master process:
   Normal end of execution.
+```
 
-
- # #To run the code and interrupt with ctrl+C 
+ # To run the code and interrupt with ctrl+C 
 $ mpirun -np 4 rose_prime_number
 
-
+```
 PRIME_MPI
   C/MPI version
 
@@ -68,11 +68,11 @@ PRIME_MPI
      16384      1900        0.136121
 ^C Sending Ctrl-C to processes as requested
 Press Ctrl-C again to force abort
-
-# #Restarting after interrupting
+```
+# Restarting after interrupting
 
 $ mpirun -np 4 rose_prime_number --r
-
+```
 PRIME_MPI
   C/MPI version
 
@@ -90,3 +90,4 @@ Restarting from file string1.
 
 PRIME_MPI - Master process:
   Normal end of execution.
+```
