@@ -1,8 +1,8 @@
 This folder contains code samples related to I/O optimization strategies for serial programs or serial portions of parallel programs.
 
-# To compile the code
+# To compile the code memorymapped.c
 ```
-$ gcc -o memorymapped3 memorymapped3.c
+$ gcc -o memorymapped memorymapped.c
 ```
 
 # To run the code
