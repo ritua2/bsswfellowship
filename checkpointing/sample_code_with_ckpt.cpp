@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
        int i2 = 20;
        rose_count_d =0;
        rose_count_d =0;
-       rose_count_d++;  //need to be increased by one every time b() gets called
+       rose_count_d++;  //need to be increased by one every time d() gets called
        d(i1);
        rose_count_b++; //need to be increased by one every time b() gets called
        b(i2);
