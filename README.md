@@ -35,3 +35,14 @@ June 12, 2023, 12:30 PM CST - 2:30 PM CST: (1) Strategies and practices for redu
 June 13, 2023, 12:30 PM CST - 2:30 PM CST: Reading and writing files in parallel using MPI
 
 June 14, 2023, 12:30 PM CST - 2:30 PM CST: Checkpointing serial and parallel applications
+
+## URLs to the LinkedIn Articles and Posts
+1. What is checkpointing? https://www.linkedin.com/pulse/what-checkpointing-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D
+   
+2. Checkpointing in Python: https://www.linkedin.com/pulse/checkpointing-python-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D
+
+3. Checkpointing and Saving States of AI models: https://www.linkedin.com/posts/ritu-a-59b58ab_checkpointing-and-saving-the-states-of-ai-activity-7072375016528506880-ZTu_?utm_source=share&utm_medium=member_desktop
+
+4. Optimizing I/O: https://www.linkedin.com/pulse/optimizing-io-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D
+   
+
