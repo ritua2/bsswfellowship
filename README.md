@@ -9,17 +9,16 @@ As a part of my fellowship, I created videos, articles/blogs, and examples/exerc
 (3) Optimizing I/O and checkpointing AI/machine learning models/applications
 (4) Techniques for leveraging the features in the underlying hardware and filesystems (e.g., Lustre) for optimizing applications’ I/O while being aware of portability issues.
 
+## Directory Structure
 The directory (or folder) names in this repository are metadata that give an indication about the type of content inside them.
 
 The code samples related to the topic of checkpointing in serial and parallel applications including AI/machine learning models are shared through the directory named "checkpointing": https://github.com/ritua2/bsswfellowship/tree/main/checkpointing 
-
 
 The documents (articles/blog and presentations) related to the content developed in this fellowship are shared through the directory named "documents": https://github.com/ritua2/bsswfellowship/tree/main/documents
 
 The repository named "mpiio" contains the code samples related to reading and writing file using MPI I/O: https://github.com/ritua2/bsswfellowship/tree/main/mpiio
 
 The directory named "serial_io" contains the code for demonstrating optimization in serial code : https://github.com/ritua2/bsswfellowship/tree/main/serial_io 
-
 
 The videos recorded for this fellowship are posted on YouTube and their links are included in the directory named "videos": https://github.com/ritua2/bsswfellowship/tree/main/videos
 
