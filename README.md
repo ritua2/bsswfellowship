@@ -24,6 +24,7 @@ The videos recorded for this fellowship are posted on YouTube and their links ar
 
 ## Prerequisites
 For optimizations in serial and parallel applications: familiarity with Linux, C/C++ programming, and MPI 
+
 For AI/machine learning related content: familiarity with Tensorflow, PyTorch, and Keras 
 
 ## Target Audience
