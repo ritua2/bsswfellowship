@@ -1,3 +1,5 @@
 This folder contains the links to the videos related to the Optimizing I/O tutorial.
 
-1. Part-3, I/O in the context of checkpointing and AI: https://www.youtube.com/watch?v=3Bbi4L85So4 
+1. Part-1, (1) Strategies and practices for reducing inefficient I/O in serial and parallel applications, including AI frameworks, and (2) Introduction to Parallel Filesystems (Lustre): https://www.youtube.com/watch?v=_IXddFgq2Xo
+
+2. Part-3, I/O in the context of checkpointing and AI: https://www.youtube.com/watch?v=3Bbi4L85So4 
