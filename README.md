@@ -22,6 +22,8 @@ The directory named "serial_io" contains the code for demonstrating optimization
 
 The videos recorded for this fellowship are posted on YouTube and their links are included in the directory named "videos": https://github.com/ritua2/bsswfellowship/tree/main/videos
 
+The code samples and exercises in the different folders accompany the slides at the following link but can be just independently as well as a reference to understand how the different API/function calls used for I/O or checkpointing work: https://github.com/ritua2/bsswfellowship/blob/main/documents/optimizing_IO_part1_part2_part3_combined.pdf . The instructions for compiling/running the code samples should be in the README files within the respective folders.
+
 ## Prerequisites
 For optimizations in serial and parallel applications: familiarity with Linux, C/C++ programming, and MPI 
 
