@@ -22,5 +22,7 @@ The directory named "serial_io" contains the code for demonstrating optimization
 
 The videos recorded for this fellowship are posted on YouTube and their links are included in the directory named "videos": https://github.com/ritua2/bsswfellowship/tree/main/videos
 
-
+## Prerequisites
+For optimizations in serial and parallel applications: familiarity with Linux, C/C++ programming, and MPI 
+For AI/machine learning related content: familiarity with Tensorflow, PyTorch, and Keras 
 
