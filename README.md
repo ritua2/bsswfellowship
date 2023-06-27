@@ -44,5 +44,27 @@ June 14, 2023, 12:30 PM CST - 2:30 PM CST: Checkpointing serial and parallel app
 3. Checkpointing and Saving States of AI models: https://www.linkedin.com/posts/ritu-a-59b58ab_checkpointing-and-saving-the-states-of-ai-activity-7072375016528506880-ZTu_?utm_source=share&utm_medium=member_desktop
 
 4. Optimizing I/O: https://www.linkedin.com/pulse/optimizing-io-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D
+
+
+## Using this Repository
+The code shared through this repository is released under the LGPL-2.1 license. The presentation slides are released under the CC BY-NC 2.0 license.
+
+The content included in this repository is meant to be an anthology of the different strategies to address the optimization of I/O in serial and parallel applications from hardware to the software level. The wide breadth of the content covered includes topics such as optimal programming language/library functions for doing I/O, using an optimal data transfer protocol, efficiently leveraging the parallel and distributed filesystems and the storage hardware, creating job dependencies for setting up automated workflows for checkpointing-and-restart (which is a critical piece due to the amount of I/O it involves), and leveraging the features of the machine learning/AI frameworks for doing I/O optimally. 
+
+If you would like to learn about the topic of Optimizing I/O in the tutorial mode, then please refer to the slides at the following link: https://github.com/ritua2/bsswfellowship/blob/main/documents/optimizing_IO_part1_part2_part3_combined.pdf . The content in these slides is divided into different three parts, and you should be able to start with any part at any point in time as long as the prerequisites are met.
+
+If you prefer a gentle and verbose introduction to the different topics related to optimizing I/O in serial and parallel applications, you can start with the following LinkedIn article: https://www.linkedin.com/feed/update/urn:li:activity:7078166039275974656/ . This article is also accessible through the following link: https://github.com/ritua2/bsswfellowship/blob/main/documents/Optimizing_IO_updated.pdf
+
+If you need an introduction to checkpointing and how it is related to I/O, then please refer to part-3 of the slides at the following link: https://github.com/ritua2/bsswfellowship/blob/main/documents/optimizing_IO_part1_part2_part3_combined.pdf . For a gentle introduction to checkpointing and how application-level checkpointing can be implemented in serial and parallel applications including the machine learning/AI models, you may start with the content in the following sequence:
+
+1. What is checkpointing? https://www.linkedin.com/pulse/what-checkpointing-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D 
+
    
+2. Checkpointing in Python: https://www.linkedin.com/pulse/checkpointing-python-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D 
+
+
+3. Checkpointing and Saving States of AI models: https://www.linkedin.com/posts/ritu-a-59b58ab_checkpointing-and-saving-the-states-of-ai-activity-7072375016528506880-ZTu_?utm_source=share&utm_medium=member_desktop
+
+
+
 
