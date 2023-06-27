@@ -3,7 +3,7 @@ This repository contains the deliverables associated with my BSSw Fellowship.
 
 Note: The PDF file named "optimizing_IO_part1_part2_part3_combined_updated.pdf" contains 100 pages and has been moved to the documents folder. Please feel free to click on "More Pages" if you are opening this document on GitHub and scrolling down.
 
-As a part of my fellowship, I created videos, articles/blogs, and examples/exercises to demonstrate how to optimize I/O in scientific applications including the applications from the area of AI/machine learning and have delivered a 3-day tutorial on these topics. Specifically, I have covered the following topics:
+As a part of my fellowship, I created videos, articles/blogs, and examples/exercises to demonstrate how to optimize I/O in scientific applications including the applications from the area of AI/machine learning and have delivered a 3-part tutorial on these topics. Specifically, I have covered the following topics:
 (1) Optimizing I/O in serial and parallel applications
 (2) Optimally writing and reading checkpoints in serial and parallel applications
 (3) Optimizing I/O and checkpointing AI/machine learning models/applications
