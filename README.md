@@ -26,3 +26,5 @@ The videos recorded for this fellowship are posted on YouTube and their links ar
 For optimizations in serial and parallel applications: familiarity with Linux, C/C++ programming, and MPI 
 For AI/machine learning related content: familiarity with Tensorflow, PyTorch, and Keras 
 
+## Target Audience
+The target audience of the material developed as a part of this fellowship includes those who are engaged in scientific software development but do not have prior experience with parallel filesystems, MPI I/O, and application-level checkpointing.
