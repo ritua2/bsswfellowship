@@ -29,7 +29,7 @@ For AI/machine learning related content: familiarity with Tensorflow, PyTorch, a
 ## Target Audience
 The target audience of the material developed as a part of this fellowship includes those who are engaged in scientific software development but do not have prior experience with parallel filesystems, MPI I/O, and application-level checkpointing.
 
-## Tutorial agenda and schedule
+## Agenda and schedule of the tutorial delivered in June 2023
 June 12, 2023, 12:30 PM CST - 2:30 PM CST: (1) Strategies and practices for reducing inefficient I/O in serial and parallel applications, including AI frameworks, and (2) Introduction to Parallel Filesystems (Lustre)
 
 June 13, 2023, 12:30 PM CST - 2:30 PM CST: Reading and writing files in parallel using MPI
