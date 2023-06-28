@@ -77,6 +77,7 @@ Part-2: Reading and writing files in parallel using MPI
       - Introduction to MPI I/O
 
 Part-3: Checkpointing serial and parallel applications
+
       - I/O in the context of checkpointing and AI
 
 The links to the video-recordings of the different parts of the tutorial are included in the videos folder. 
