@@ -74,6 +74,7 @@ Part-1: (1) Strategies and practices for reducing inefficient I/O in serial and 
 Part-2: Reading and writing files in parallel using MPI
          
       - Introduction to parallel I/O patterns
+      
       - Introduction to MPI I/O
 
 Part-3: Checkpointing serial and parallel applications
