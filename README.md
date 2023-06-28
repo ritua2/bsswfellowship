@@ -5,8 +5,11 @@ Note: The PDF file named "optimizing_IO_part1_part2_part3_combined_updated.pdf" 
 
 As a part of my fellowship, I created videos, articles/blogs, and examples/exercises to demonstrate how to optimize I/O in scientific applications including the applications from the area of AI/machine learning and have delivered a 3-part tutorial on these topics. Specifically, I have covered the following topics:
 (1) Optimizing I/O in serial and parallel applications
+
 (2) Optimally writing and reading checkpoints in serial and parallel applications
+
 (3) Optimizing I/O and checkpointing AI/machine learning models/applications
+
 (4) Techniques for leveraging the features in the underlying hardware and filesystems (e.g., Lustre) for optimizing applications’ I/O while being aware of portability issues.
 
 ## Directory Structure
@@ -56,11 +59,25 @@ The content included in this repository is meant to be an anthology of the diffe
 
 If you would like to learn about the topic of Optimizing I/O in the tutorial mode, then please refer to the slides at the following link: https://github.com/ritua2/bsswfellowship/blob/main/documents/optimizing_IO_part1_part2_part3_combined.pdf . The content in these slides is divided into three parts, and you should be able to start with any part at any point in time as long as the prerequisites are met. These parts are as follows:
 
-Part-1: (1) Strategies and practices for reducing inefficient I/O in serial and parallel applications, including AI frameworks, and (2) Introduction to Parallel Filesystems (Lustre)
+Part-1: (1) Strategies and practices for reducing inefficient I/O in serial and parallel applications, including AI frameworks, and (2) Introduction to Parallel Filesystems (Lustre). The topics covered in this part are as follows:
+
+
+      - Why should we optimize I/O?  (general review)
+
+      - How can we optimize I/O?  (general review plus one example code in C)
+
+      - General I/O strategies for working on High Performance Computing (HPC) platforms  (general review)
+
+      - Introduction to the Lustre parallel file system (general review and demo of some Lustre commands)
+
 
 Part-2: Reading and writing files in parallel using MPI
+         
+      - Introduction to parallel I/O patterns
+      - Introduction to MPI I/O
 
 Part-3: Checkpointing serial and parallel applications
+      - I/O in the context of checkpointing and AI
 
 The links to the video-recordings of the different parts of the tutorial are included in the videos folder. 
 
