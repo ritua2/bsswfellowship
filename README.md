@@ -83,7 +83,7 @@ Part-3: Checkpointing serial and parallel applications
 
 The links to the video-recordings of the different parts of the tutorial are included in the videos folder. 
 
-If you prefer a gentle and verbose introduction to the different topics related to optimizing I/O in serial and parallel applications, you can start with the following LinkedIn article: https://www.linkedin.com/feed/update/urn:li:activity:7078166039275974656/ . This article is also accessible through the following link: https://github.com/ritua2/bsswfellowship/blob/main/documents/Optimizing_IO_updated.pdf
+Instead of starting with the slides, if you prefer a gentle and verbose introduction to the different topics related to optimizing I/O in serial and parallel applications, you can start with the following LinkedIn article: https://www.linkedin.com/feed/update/urn:li:activity:7078166039275974656/ . This article is also accessible through the following link: https://github.com/ritua2/bsswfellowship/blob/main/documents/Optimizing_IO_updated.pdf
 
 If you are interested in an introduction to checkpointing and how it is related to I/O, then please refer to part-3 of the slides at the following link: https://github.com/ritua2/bsswfellowship/blob/main/documents/optimizing_IO_part1_part2_part3_combined.pdf . 
 
