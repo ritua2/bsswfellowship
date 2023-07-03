@@ -27,13 +27,13 @@ The videos recorded for this fellowship are posted on YouTube and their links ar
 
 The code samples and exercises in the different folders supplement the slides at the following link but can be used independently as well as a reference to understand how the different API/function calls are used for I/O or checkpointing work: https://github.com/ritua2/bsswfellowship/blob/main/documents/optimizing_IO_part1_part2_part3_combined.pdf . The instructions for compiling/running the code samples should be in the README files within the respective folders.
 
+## Target Audience
+The target audience of the material developed as a part of this fellowship includes those who are engaged in scientific software development but do not have prior experience with parallel filesystems, MPI I/O, and application-level checkpointing.
+
 ## Prerequisites
 For the content on optimizations in serial and parallel applications: familiarity with Linux, C/C++ programming, and MPI 
 
 For the content on AI/machine learning: familiarity with Tensorflow, PyTorch, and Keras 
-
-## Target Audience
-The target audience of the material developed as a part of this fellowship includes those who are engaged in scientific software development but do not have prior experience with parallel filesystems, MPI I/O, and application-level checkpointing.
 
 ## Using this Repository
 The code shared through this repository is released under the LGPL-2.1 license. The presentation slides are released under the CC BY-NC 2.0 license.
