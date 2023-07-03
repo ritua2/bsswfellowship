@@ -1,4 +1,4 @@
-This folder contains code samples related to I/O optimization strategies for serial programs or serial portions of parallel programs.
+This folder contains a code sample related to I/O optimization strategies for serial programs or serial portions of parallel programs and was discussed in the Optimizing I/O tutorial.
 
 # To compile the code memorymapped.c
 ```
