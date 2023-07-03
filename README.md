@@ -35,23 +35,6 @@ For AI/machine learning related content: familiarity with Tensorflow, PyTorch, a
 ## Target Audience
 The target audience of the material developed as a part of this fellowship includes those who are engaged in scientific software development but do not have prior experience with parallel filesystems, MPI I/O, and application-level checkpointing.
 
-## Agenda and schedule of the tutorial delivered in June 2023
-June 12, 2023, 12:30 PM CST - 2:30 PM CST: (1) Strategies and practices for reducing inefficient I/O in serial and parallel applications, including AI frameworks, and (2) Introduction to Parallel Filesystems (Lustre)
-
-June 13, 2023, 12:30 PM CST - 2:30 PM CST: Reading and writing files in parallel using MPI
-
-June 14, 2023, 12:30 PM CST - 2:30 PM CST: Checkpointing serial and parallel applications
-
-## URLs to the LinkedIn Articles and Posts
-1. What is checkpointing? https://www.linkedin.com/pulse/what-checkpointing-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D
-   
-2. Checkpointing in Python: https://www.linkedin.com/pulse/checkpointing-python-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D
-
-3. Checkpointing and Saving States of AI models: https://www.linkedin.com/posts/ritu-a-59b58ab_checkpointing-and-saving-the-states-of-ai-activity-7072375016528506880-ZTu_?utm_source=share&utm_medium=member_desktop
-
-4. Optimizing I/O: https://www.linkedin.com/pulse/optimizing-io-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D
-
-
 ## Using this Repository
 The code shared through this repository is released under the LGPL-2.1 license. The presentation slides are released under the CC BY-NC 2.0 license.
 
@@ -97,6 +80,18 @@ For a gentle introduction to checkpointing and how application-level checkpointi
 
 3. Checkpointing and Saving States of AI models: https://www.linkedin.com/posts/ritu-a-59b58ab_checkpointing-and-saving-the-states-of-ai-activity-7072375016528506880-ZTu_?utm_source=share&utm_medium=member_desktop
 
+## Agenda and schedule of the tutorial delivered in June 2023
+June 12, 2023, 12:30 PM CST - 2:30 PM CST: (1) Strategies and practices for reducing inefficient I/O in serial and parallel applications, including AI frameworks, and (2) Introduction to Parallel Filesystems (Lustre)
 
+June 13, 2023, 12:30 PM CST - 2:30 PM CST: Reading and writing files in parallel using MPI
 
+June 14, 2023, 12:30 PM CST - 2:30 PM CST: Checkpointing serial and parallel applications
 
+## URLs to the LinkedIn Articles and Posts
+1. What is checkpointing? https://www.linkedin.com/pulse/what-checkpointing-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D
+   
+2. Checkpointing in Python: https://www.linkedin.com/pulse/checkpointing-python-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D
+
+3. Checkpointing and Saving States of AI models: https://www.linkedin.com/posts/ritu-a-59b58ab_checkpointing-and-saving-the-states-of-ai-activity-7072375016528506880-ZTu_?utm_source=share&utm_medium=member_desktop
+
+4. Optimizing I/O: https://www.linkedin.com/pulse/optimizing-io-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D
