@@ -1,4 +1,4 @@
-# Improving Application Performance by Optimizing I/O
+## Improving Application Performance by Optimizing I/O
 
 ## Why should you consider optimizing I/O?
 Every useful scientific application does some type of Input/Output (I/O). For example, such applications could be reading initial conditions/data for processing or could be writing checkpoints every so often to be used in the event of any hardware failure.
