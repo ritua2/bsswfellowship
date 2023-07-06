@@ -1,7 +1,7 @@
 ## BSSw Fellowship: Optimizing I/O for Better Performance
 This repository contains the deliverables associated with my [BSSw Fellowship](https://bssw.io/fellows/ritu-arora).
 
-Optimizing I/O of scientific applications can be critical to simulation performance but is usually an afterthought in application development. As a part of my fellowship, I created videos, articles/blogs, and examples/exercises to demonstrate how to optimize I/O in scientific applications including the applications from the area of AI/machine learning and have delivered a 3-part tutorial on these topics. Specifically, I have covered the following topics:
+Optimizing I/O of scientific applications can be critical for performance but is usually an afterthought in application development. As a part of my fellowship, I created videos, articles/blogs, and examples/exercises to demonstrate how to optimize I/O in scientific applications including the applications from the area of AI/machine learning and have delivered a 3-part tutorial on these topics. Specifically, I have covered the following topics:
 
 (1) Optimizing I/O in serial and parallel applications
 
