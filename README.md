@@ -1,9 +1,8 @@
-## BSSw Fellowship
-This repository contains the deliverables associated with my BSSw Fellowship.
+## BSSw Fellowship: Optimizing I/O for Better Performance
+This repository contains the deliverables associated with my [BSSw Fellowship](https://bssw.io/fellows/ritu-arora).
 
-Note: The PDF file named "optimizing_IO_part1_part2_part3_combined_updated.pdf" contains 100 pages and has been moved to the documents folder. Please feel free to click on "More Pages" if you are opening this document on GitHub and scrolling down.
+Optimizing I/O of scientific applications can be critical to simulation performance but is usually an afterthought in application development. As a part of my fellowship, I created videos, articles/blogs, and examples/exercises to demonstrate how to optimize I/O in scientific applications including the applications from the area of AI/machine learning and have delivered a 3-part tutorial on these topics. Specifically, I have covered the following topics:
 
-As a part of my fellowship, I created videos, articles/blogs, and examples/exercises to demonstrate how to optimize I/O in scientific applications including the applications from the area of AI/machine learning and have delivered a 3-part tutorial on these topics. Specifically, I have covered the following topics:
 (1) Optimizing I/O in serial and parallel applications
 
 (2) Optimally writing and reading checkpoints in serial and parallel applications
@@ -11,6 +10,14 @@ As a part of my fellowship, I created videos, articles/blogs, and examples/exerc
 (3) Optimizing I/O and checkpointing AI/machine learning models/applications
 
 (4) Techniques for leveraging the features in the underlying hardware and filesystems (e.g., Lustre) for optimizing applications’ I/O while being aware of portability issues.
+
+## Target Audience
+The target audience of the material developed as a part of this fellowship includes those who are engaged in scientific software development but do not have prior experience with parallel filesystems, MPI I/O, and application-level checkpointing.
+
+## Prerequisites
+For the content on optimizations in serial and parallel applications: familiarity with Linux, C/C++ programming, and MPI 
+
+For the content on AI/machine learning: familiarity with Tensorflow, PyTorch, and Keras 
 
 ## Directory Structure
 The directory (or folder) names in this repository are metadata that give an indication about the type of content inside them.
@@ -26,14 +33,6 @@ The directory named "serial_io" contains the code for demonstrating optimization
 The videos recorded for this fellowship are posted on YouTube and their links are included in the directory named "videos": https://github.com/ritua2/bsswfellowship/tree/main/videos
 
 The code samples and exercises in the different folders supplement the slides at the following link but can be used independently as well as a reference to understand how the different API/function calls are used for I/O or checkpointing work: https://github.com/ritua2/bsswfellowship/blob/main/documents/optimizing_IO_part1_part2_part3_combined.pdf . The instructions for compiling/running the code samples should be in the README files within the respective folders.
-
-## Target Audience
-The target audience of the material developed as a part of this fellowship includes those who are engaged in scientific software development but do not have prior experience with parallel filesystems, MPI I/O, and application-level checkpointing.
-
-## Prerequisites
-For the content on optimizations in serial and parallel applications: familiarity with Linux, C/C++ programming, and MPI 
-
-For the content on AI/machine learning: familiarity with Tensorflow, PyTorch, and Keras 
 
 ## Using this Repository
 The code shared through this repository is released under the LGPL-2.1 license. The presentation slides are released under the CC BY-NC 2.0 license.
