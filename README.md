@@ -94,3 +94,6 @@ June 14, 2023, 12:30 PM CST - 2:30 PM CST: Checkpointing serial and parallel app
 3. Checkpointing and Saving States of AI models: https://www.linkedin.com/posts/ritu-a-59b58ab_checkpointing-and-saving-the-states-of-ai-activity-7072375016528506880-ZTu_?utm_source=share&utm_medium=member_desktop
 
 4. Optimizing I/O: https://www.linkedin.com/pulse/optimizing-io-ritu-arora/?trackingId=6HuYtfGvRB%2ByZ0%2B6tmowpw%3D%3D
+
+## Acknowledgement
+This work was supported by the Better Scientific Software Fellowship Program, funded by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy (DOE) Office of Science and the National Nuclear Security Administration; and by the National Science Foundation (NSF) under Grant No. 2154495.
